@@ -1,1 +1,0 @@
-## <p align="center"> <img alt="Logo" src="https://user-images.githubusercontent.com/67637706/145754697-1558d74d-0157-4dc3-ac42-f56209a837ce.jpeg" width="200px"></p>
