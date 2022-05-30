@@ -38,7 +38,7 @@ export const Text = styled.p`
 `;
 export const RightWrapper = styled(Set)`
    width: 40%;
-   border-left: 3px solid #0085ff;
+   border-left: 5px solid #0085ff;
    border-radius: 50px 0px 0px 50px;
 `;
 export const LoginText = styled.p`
