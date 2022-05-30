@@ -72,11 +72,13 @@ export const Button = styled.button`
    height: 5.5vh;
    background: #0085ff;
    border-radius: 40px;
-   margin-top: 5vh;
+   margin-top: 7vh;
    margin-bottom: -5vh;
+   font-weight: 200;
+   font-size: 17px;
 `;
 export const SignUpWrapper = styled(Set)`
-   height: 10vh;
+   height: 8vh;
 `;
 export const SignUp = styled.p`
    font-size: 15px;
