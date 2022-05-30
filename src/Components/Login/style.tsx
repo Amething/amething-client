@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../../../src/index.css";
 
 export const Set = styled.div`
    display: flex;
@@ -9,4 +10,6 @@ export const Set = styled.div`
 `;
 export const Positioner = styled(Set)``;
 export const Wrapper = styled(Set)``;
-export const LeftWrapper = styled(Set)``;
+export const LeftWrapper = styled(Set)`
+   font-family: ED Piedmont-Regular;
+`;
