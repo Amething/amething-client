@@ -76,6 +76,9 @@ export const Button = styled.button`
    margin-bottom: -5vh;
    font-weight: 200;
    font-size: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 `;
 export const SignUpWrapper = styled(Set)`
    height: 8vh;
