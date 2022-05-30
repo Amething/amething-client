@@ -6,6 +6,7 @@ const Login = () => {
       <S.Positioner>
          <S.Wrapper>
             <S.LeftWrapper>hello</S.LeftWrapper>
+            <S.RightWrapper>hello</S.RightWrapper>
          </S.Wrapper>
       </S.Positioner>
    );

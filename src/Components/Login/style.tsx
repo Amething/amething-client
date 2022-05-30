@@ -11,5 +11,9 @@ export const Set = styled.div`
 export const Positioner = styled(Set)``;
 export const Wrapper = styled(Set)``;
 export const LeftWrapper = styled(Set)`
-   font-family: ED Piedmont-Regular;
+   width: 50%;
+   flex-direction: column;
+`;
+export const RightWrapper = styled(Set)`
+   width: 50%;
 `;
