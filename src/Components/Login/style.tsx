@@ -9,11 +9,31 @@ export const Set = styled.div`
    height: 100vh;
 `;
 export const Positioner = styled(Set)``;
-export const Wrapper = styled(Set)``;
+
 export const LeftWrapper = styled(Set)`
-   width: 50%;
+   width: 60%;
+`;
+export const Wrapper = styled(Set)`
    flex-direction: column;
+   img {
+      margin-top: 8vh;
+      width: 55vh;
+      height: 38vh;
+   }
+`;
+export const Title = styled.p`
+   font-size: 100px;
+   color: #0085ff;
+   font-family: ED Piedmont-Regular;
+`;
+export const Text = styled.p`
+   color: #000000;
+   font-size: 25px;
+   font-family: sans-serif;
+   margin-top: 8vh;
 `;
 export const RightWrapper = styled(Set)`
-   width: 50%;
+   width: 40%;
+   border-left: 3px solid #0085ff;
+   border-radius: 50px 0px 0px 50px;
 `;
