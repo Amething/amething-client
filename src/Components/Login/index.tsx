@@ -2,6 +2,9 @@ import React from "react";
 import * as S from "./style";
 import Question from "../../Assets/Login/Question.png";
 
+const ButtonTest = () => {
+   alert("Clicked !");
+};
 const Login = () => {
    return (
       <S.Positioner>
@@ -24,9 +27,11 @@ const Login = () => {
                   <S.Line />
                   <S.SignUpWrapper>
                      <S.SignUp>아직 계정이 없으신가요 ?</S.SignUp>
-                     <S.SignupButton>회원가입</S.SignupButton>
+                     <S.SignupButton onClick={ButtonTest}>
+                        회원가입
+                     </S.SignupButton>
                   </S.SignUpWrapper>
-                  <S.Button>로그인</S.Button>
+                  <S.Button onClick={ButtonTest}>로그인</S.Button>
                </S.LoginWrapper>
             </S.Wrapper>
          </S.RightWrapper>
