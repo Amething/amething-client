@@ -9,10 +9,18 @@ const Login = () => {
             <S.Wrapper>
                <S.Title>Amething</S.Title>
                <S.Text>Ask me anyting, Amething.</S.Text>
-               <img src={Question}></img>
+               <img src={Question} />
             </S.Wrapper>
          </S.LeftWrapper>
-         <S.RightWrapper>hello</S.RightWrapper>
+         <S.RightWrapper>
+            <S.Wrapper>
+               <S.Title className="RightText">Amething</S.Title>
+               <S.LoginWrapper>
+                  <S.LoginText>name</S.LoginText>
+                  <S.LoginText>password</S.LoginText>
+               </S.LoginWrapper>
+            </S.Wrapper>
+         </S.RightWrapper>
       </S.Positioner>
    );
 };
