@@ -13,6 +13,9 @@ export const Positioner = styled(Set)``;
 
 export const LeftWrapper = styled(Set)`
    width: 60%;
+   @media (max-width: 500px) {
+      display: none;
+   }
 `;
 export const Wrapper = styled(Set)`
    flex-direction: column;
@@ -22,17 +25,17 @@ export const Wrapper = styled(Set)`
       height: 38vh;
    }
    .RightText {
-      font-size: 50px;
+      font-size: 3.125rem;
    }
 `;
 export const Title = styled.p`
-   font-size: 100px;
+   font-size: 6.25rem;
    color: #0085ff;
    font-family: ED Piedmont-Regular;
 `;
 export const Text = styled.p`
    color: #000000;
-   font-size: 25px;
+   font-size: 1.563rem;
    font-weight: 200;
    margin-top: 8vh;
 `;
@@ -40,19 +43,28 @@ export const RightWrapper = styled(Set)`
    width: 40%;
    border-left: 5px solid #0085ff;
    border-radius: 50px 0px 0px 50px;
+   @media (max-width: 500px) {
+      border: none;
+   }
 `;
 export const LoginText = styled.p`
    width: 40vh;
    font-weight: 100;
-   font-size: 30px;
+   font-size: 1.875rem;
    color: #0085ff;
    margin-bottom: 1.2vh;
+   @media (max-width: 500px) {
+      width: 35vh;
+   }
 `;
 export const Comment = styled(LoginText)`
    width: 40vh;
-   font-size: 15px;
+   font-size: 0.938rem;
    color: #858383;
    margin-bottom: 3.5vh;
+   @media (max-width: 500px) {
+      width: 35vh;
+   }
 `;
 export const LoginWrapper = styled(Set)`
    height: 70%;
@@ -64,12 +76,18 @@ export const LoginWrapper = styled(Set)`
 export const Line = styled.div`
    input {
       font-size: 17px;
-      font-weight: 200;
+      font-weight: 300;
       width: 40vh;
       height: 3.5vh;
       outline: none;
       border: none;
       border-bottom: 2px solid black;
+   }
+   @media (max-width: 500px) {
+      input {
+         width: 35vh;
+         font-weight: 100;
+      }
    }
 `;
 export const Button = styled.button`
@@ -89,18 +107,24 @@ export const Button = styled.button`
 `;
 export const SignUpWrapper = styled(Set)`
    height: 8vh;
+   @media (max-width: 500px) {
+      width: 40vh;
+   }
 `;
 export const SignUp = styled.p`
-   font-size: 15px;
+   font-size: 0.938rem;
    color: #858383;
    font-weight: 100;
 `;
 export const SignupButton = styled.button`
    font-weight: 200;
-   font-size: 15px;
+   font-size: 0.938rem;
    color: #0085ff;
    border: none;
    background: none;
    margin-left: 1vh;
    margin-bottom: 0.3vh;
+   @media (max-width: 500px) {
+      margin-bottom: 0;
+   }
 `;
