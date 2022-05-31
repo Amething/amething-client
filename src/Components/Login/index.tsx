@@ -21,10 +21,14 @@ const Login = () => {
                <S.LoginWrapper>
                   <S.LoginText>name</S.LoginText>
                   <S.Comment>이름을 입력해주세요.</S.Comment>
-                  <S.Line />
+                  <S.Line>
+                     <input type="id" />
+                  </S.Line>
                   <S.LoginText className="password">password</S.LoginText>
                   <S.Comment>비밀번호를 입력해주세요.</S.Comment>
-                  <S.Line />
+                  <S.Line>
+                     <input type="password" />
+                  </S.Line>
                   <S.SignUpWrapper>
                      <S.SignUp>아직 계정이 없으신가요 ?</S.SignUp>
                      <S.SignupButton onClick={ButtonTest}>

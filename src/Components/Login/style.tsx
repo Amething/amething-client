@@ -46,13 +46,13 @@ export const LoginText = styled.p`
    font-weight: 100;
    font-size: 30px;
    color: #0085ff;
-   margin-bottom: 1vh;
+   margin-bottom: 1.2vh;
 `;
 export const Comment = styled(LoginText)`
    width: 40vh;
    font-size: 15px;
-   color: #b4b0b0;
-   margin-bottom: 5vh;
+   color: #858383;
+   margin-bottom: 3.5vh;
 `;
 export const LoginWrapper = styled(Set)`
    height: 70%;
@@ -62,8 +62,15 @@ export const LoginWrapper = styled(Set)`
    }
 `;
 export const Line = styled.div`
-   width: 40vh;
-   border: 1.5px solid #000000;
+   input {
+      font-size: 17px;
+      font-weight: 200;
+      width: 40vh;
+      height: 3.5vh;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid black;
+   }
 `;
 export const Button = styled.button`
    color: #ffffff;
