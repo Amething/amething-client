@@ -13,7 +13,7 @@ export const Positioner = styled(Set)``;
 
 export const LeftWrapper = styled(Set)`
    width: 60%;
-   @media (max-width: 500px) {
+   @media (max-width: 1200px) {
       display: none;
    }
 `;
@@ -43,7 +43,7 @@ export const RightWrapper = styled(Set)`
    width: 40%;
    border-left: 5px solid #0085ff;
    border-radius: 50px 0px 0px 50px;
-   @media (max-width: 500px) {
+   @media (max-width: 1200px) {
       border: none;
    }
 `;
@@ -107,6 +107,7 @@ export const Button = styled.button`
 `;
 export const SignUpWrapper = styled(Set)`
    height: 8vh;
+   width: 50vh;
    @media (max-width: 500px) {
       width: 40vh;
    }
@@ -123,8 +124,4 @@ export const SignupButton = styled.button`
    border: none;
    background: none;
    margin-left: 1vh;
-   margin-bottom: 0.3vh;
-   @media (max-width: 500px) {
-      margin-bottom: 0;
-   }
 `;
