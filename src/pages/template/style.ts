@@ -41,6 +41,8 @@ export const Text = styled.p`
 `;
 export const RightWrapper = styled(Set)`
   width: 40%;
+  border-left: 5px solid #0085ff;
+  border-radius: 50px 0px 0px 50px;
   @media (max-width: 1200px) {
     border: none;
   }
