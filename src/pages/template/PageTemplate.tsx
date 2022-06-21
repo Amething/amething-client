@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+/* eslint-disable jsx-a11y/alt-text */
 import * as S from "./style";
 import Question from "../../Assets/Login/Question.png";
 

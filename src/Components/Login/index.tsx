@@ -1,6 +1,5 @@
 import React from "react";
 import * as S from "./style";
-import Question from "../../Assets/Login/Question.png";
 
 const ButtonTest = () => {
   alert("Clicked !");
