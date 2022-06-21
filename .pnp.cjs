@@ -16054,6 +16054,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:17.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:18.1.0", {\
+          "packageLocation": "./.yarn/cache/react-is-npm-18.1.0-6642a99f70-d206a0fe67.zip/node_modules/react-is/",\
+          "packageDependencies": [\
+            ["react-is", "npm:18.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["react-refresh", [\
@@ -17936,12 +17943,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.44"],\
             ["@types/react-dom", "npm:17.0.15"],\
             ["@types/react-is", null],\
+            ["babel-plugin-macros", "npm:3.1.0"],\
             ["babel-plugin-styled-components", "virtual:5a9293dc06698014147af3722350b9283fa168621ead1ac2ee278a41e7b684983d4213500aa885560a1110d6c83bee3e03a68b81a7cf6bd346e2bcca204ec07b#npm:2.0.7"],\
             ["css-to-react-native", "npm:3.0.0"],\
             ["hoist-non-react-statics", "npm:3.3.2"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:bbefc7b87bcdd4f03f8374aea449e0fd51e9ea98f1aa0282d2d2a069987641fa6e7fb7a7b3aec1d4ecd075a49a465955f4371807011faa6db9e0e71f2b0c4818#npm:17.0.2"],\
-            ["react-is", null],\
+            ["react-is", "npm:18.1.0"],\
             ["shallowequal", "npm:1.1.0"],\
             ["supports-color", "npm:5.5.0"]\
           ],\
@@ -17950,7 +17958,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-is",\
             "@types/react",\
             "react-dom",\
-            "react-is",\
             "react"\
           ],\
           "linkType": "HARD"\
