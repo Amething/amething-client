@@ -1,6 +1,5 @@
 import GlobalStyle from "./Styles/GlobalStyle";
-import { Login, SplashScreen, Tast } from "./Components";
-import PageTemplate from "./pages/template/PageTemplate";
+import { Login } from "./Components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Router() {
